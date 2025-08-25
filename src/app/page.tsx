@@ -47,11 +47,11 @@ export default function HomePage() {
           <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-2xl border border-white/20">
             
             <Image
-              src="/pv_hero.png" // IMPORTANT: Replace with your logo's path
+              src="/pv_hero.png" 
               alt="Pretty Visions Logo"
-              width={300} // Adjust width as needed
-              height={100} // Adjust height as needed
-              className="h-auto mx-auto mb-6" // Keeps the aspect ratio
+              width={300} 
+              height={100}
+              className="h-auto mx-auto mb-6" 
 
             />
             {/* <h1
@@ -80,13 +80,16 @@ export default function HomePage() {
             </div>
 
             {/* CTA Button */}
-            <Button
+            <a href="#services">
+             <Button
               size="lg"
               className="text-white font-dekko text-xl px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
               style={{ backgroundColor: "#ff66c4" }}
             >
               Explore Our Services
             </Button>
+          </a>
+            
           </div>
         </div>
 
