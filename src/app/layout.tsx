@@ -29,6 +29,9 @@ export const metadata: Metadata = {
   title: "Pretty Visions Decoration - Crafting Beautiful Spaces",
   description:
     "Event decoration company serving Southern Wisconsin since 2020. Creating beautiful spaces for your special memories.",
+  icons: {
+    icon: '/pv_icon.png',
+  }
 }
 
 export default function RootLayout({
